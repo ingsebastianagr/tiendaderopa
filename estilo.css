@@ -205,17 +205,17 @@ a:hover{
   }
 
   .fa-paypal:hover{
-    background-color: black;
+    background-color: blue;
     color: white;
-    box-shadow: 0 0 15px red;
-    box-shadow: 0 0 45px red;
-    box-shadow: 0 0 75px red;
-    box-shadow: 0 0 115px red;
+    box-shadow: 0 0 15px blue;
+    box-shadow: 0 0 45px  blue;
+    box-shadow: 0 0 75px  blue;
+    box-shadow: 0 0 115px  blue;
     transform: translate(20%, 15%);
   }
 
   .fa-cc-mastercard:hover{
-    background-color: black;
+    background-color: red;
     color: white;
     box-shadow: 0 0 15px red;
     box-shadow: 0 0 45px red;
@@ -225,12 +225,12 @@ a:hover{
   }
 
   .fa-cc-visa:hover{
-    background-color: black;
+    background-color: yellow;
     color: white;
-    box-shadow: 0 0 15px red;
-    box-shadow: 0 0 45px red;
-    box-shadow: 0 0 75px red;
-    box-shadow: 0 0 115px red;
+    box-shadow: 0 0 15px yellow;
+    box-shadow: 0 0 45px yellow;
+    box-shadow: 0 0 75px yellow;
+    box-shadow: 0 0 115px yellow;
     transform: translate(20%, 15%);
   }
 
