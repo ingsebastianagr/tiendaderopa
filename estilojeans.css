@@ -1,0 +1,161 @@
+*{
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+body {
+/* set background for body */
+background-image: url('./imagenes/fondo.jpg'); /* Ruta de la imagen de fondo */
+background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+background-position: center; /* Posición de la imagen centrada */
+}
+
+h1{
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 50px;
+}
+nav ul{
+  background-color: gray;
+  width: 100%;
+  list-style-type: none;
+  text-align: left;
+  height: 60px;
+}
+nav li {
+  display: inline-flex;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  width:  150%;
+  font-size: 30px;
+}
+nav li:hover {
+  background-color: black;
+}
+
+img {
+  width: 150px;
+  height: 200px;
+  border-radius: 10%;
+  object-fit: cover;
+  
+}
+
+.products{
+display: flex;
+flex-direction: row;
+margin-top: 10%;
+}
+
+.product {  
+  text-align: center;
+  border: 1px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  /* display: inline-block;*/
+  width: 30%; /* Ancho para cada producto */
+  vertical-align: top; /* Alinear productos en la parte superior */
+
+  
+}
+
+.product img {
+  width: 200px;
+  height: 250px;
+  /*display: block;*/
+  /* margin: 200px;*/
+  margin-bottom: 10px;
+
+  /*shadow*/
+  -webkit-box-shadow: 14px 14px 66px -6px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 14px 66px -6px rgba(0,0,0,0.75);
+box-shadow: 14px 14px 66px -6px rgba(0,0,0,0.75);
+}
+h2{
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+p{
+  text-align: center;
+  float:none;
+  color: white;
+  padding: 20px;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  
+} 
+
+a{
+text-decoration: none;
+}
+
+a:hover{
+color: #d4e20b;
+}
+
+.search-input {
+  background-color: black;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  position: absolute;
+  left: 50;
+  top: 50;
+  transform: translate(450%,-120%);
+  padding: 10px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  background-color: #007bff; /* Color de fondo del botón */
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Cambiar el color de fondo al pasar el cursor sobre el botón */
+}
+
+#search-icon {
+  display: inline-block;
+  width: 35px; /* Ancho de la imagen de búsqueda */
+  height: 35px; /* Altura de la imagen de búsqueda */
+  background-image: url('icono/lupa.png'); /* Ruta de la imagen de búsqueda */
+  background-size: cover;
+  cursor: pointer; /* Cambia el cursor al pasar sobre el ícono */
+  transform: translate(3495%,-130%);
+  
+}
+
+.contenedor{
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(20%, 15%);
+}
+
+i{
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  /* margin: 20px;*/
+  border-radius: 50%;
+  padding: 15px;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, .35);
+  transition: .3s ease;
+}
