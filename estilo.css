@@ -203,6 +203,16 @@ a:hover{
     box-shadow: 0 0 115px red;
     transform: translate(20%, 15%);
   }
+
+  .fa-paypal:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 15px red;
+    box-shadow: 0 0 45px red;
+    box-shadow: 0 0 75px red;
+    box-shadow: 0 0 115px red;
+    transform: translate(20%, 15%);
+  }
     
        
     .fa-cart-shopping:hover{
